@@ -1,0 +1,73 @@
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:Salmon ;
+}
+.tablinks {
+    background-color: red;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: Coral;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: DarkSalmon;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/*
+#loc {
+    background-image: url("bgimg1.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center,absolute;
+    z-index: 1;
+   background-attachment: fixed;
+    width: 6000px;
+    height: 1000px;
+background-size: 100% 100%;
+    margin: auto;
+    border: 3px solid #73AD21;
+
+}*/
+  .map { position:center,absolute; 
+          z-index: 2; 
+} 
+#menu
+{
+   background-color: DarkSalmon;
+}
+
+#home
+{
+   background-color: DarkSalmon;
+}

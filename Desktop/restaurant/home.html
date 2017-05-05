@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YUMMY FOODCOURT</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "res.css" />
+</head>
+<body>
+
+<center><h1><font face="Webdings" color="Salmon">YUMMY FOODCOURT</font></h1></center>
+ <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen">HOME</button>
+  <button class="tablinks" onclick="openCity(event, 'menu')">MENU</button>
+  <button class="tablinks" onclick="openCity(event, 'loc')">LOCATION</button>
+</div>
+
+
+<div id="home" class="tabcontent">
+  
+<p>  yummy food court WELCOMES you.. :) </p>
+<p>Traditional South Indian Food will be served with such grace and grandeur..!</p>
+
+  <center> <img class="mySlides" src="img2.jpg" width="1000"></center>
+   <center>  <img class="mySlides" src="img3.jpg" width="1000"></center>
+    <center> <img class="mySlides" src="img5.jpg"  width="1000"></center>
+    <center> <img class="mySlides" src="img1.png"  width="1000"></center>
+
+
+
+   </div>
+
+<div id="menu" class="tabcontent">
+  
+  <form >
+
+     	<h2><b>Todays's Special</b></h2>
+          <center><img src="menu.jpg" width="1000"/></center>
+
+        <fieldset>
+	<legend>Check the Side dishes you wish to enjoy :</legend><h6>
+	1.chutney 2.sambar 3.chettinadu special cury 4.spicy veg cury<br></h6>
+	<input type="checkbox" id="x" name="a" value="chutney" onclick="alert_on_checked(this.id)"unchecked> 1<br>
+        <input type="checkbox" id="y" name="b" value="sambar" onclick="alert_on_checked(this.id)" unchecked> 2<br>
+	<input type="checkbox" id="z" name="b" value="chettinadu special cury" onclick="alert_on_checked(this.id) " unchecked> 3<br>
+	<input type="checkbox"  id= "r" name="b" value="spicy veg cury" onclick="alert_on_checked(this.id) " unchecked> 4<br>
+            
+	<button  type="submit"  onclick="txs()">order</button></fieldset>
+     </form>
+   <ul id="c">
+   Your order:</ul>
+</div>
+
+<div id="loc" class="tabcontent">
+  
+  <fieldset>
+     <legend><h3>RUSH TO..</h3></legend>
+          <h2>YUMMY FOODCOURT</h2>
+          7, Gandhi Nagar, 
+          1st Main Road,
+           Adyar, 
+           Chennai.
+           
+  </fieldset>
+ 
+</div>
+<script type="text/javascript" src="res.js"></script>
+</body>
+</html>
